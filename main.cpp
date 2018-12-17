@@ -15,6 +15,7 @@ long long fact (int N){
 
 int main(int argc, char** argv) {
 	int N;
+	//read the number which factorial we will find
 	cin >> N;
 	long long result = fact(N);
 	//prints the result of fact(N) function
