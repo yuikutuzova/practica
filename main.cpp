@@ -4,7 +4,7 @@
 #include<iostream>
 
 using namespace std;
-
+//function that counts factorial of N
 long double fact (int N){
 	long double res = 1;
 	for(int i = 1; i <= N; i++){
@@ -16,6 +16,7 @@ long double fact (int N){
 int main(int argc, char** argv) {
 	int N;
 	cin >> N;
+	//prints the result of fact(N) function
 	cout << "Factorial of:" << N << " = " << fact(N);
 	return 0;
 }
